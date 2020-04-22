@@ -4,8 +4,9 @@ import sys
 non_bmp_map = dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd)
 app = Flask(__name__)
 
-user = 'perez_sergio_'
-password = 'Sergitopito0104*'
+# The following gives PyGram access to Instagram to be able to search users.
+user = # Insert your own instagram username
+password = # Insert your own instagram password
 ig = gram(user,password)
 
 def get_followers(cloutcheck_user):
