@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+        * {{ -webkit-box-sizing:border-box; -moz-box-sizing:border-box; -ms-box-sizing:border-box; -o-box-sizing:border-box; box-sizing:border-box; }}
+
+        html {{ width: 100%; height:100%; overflow:hidden; }}
+
+        body {{
+            width: 100%;
+            height:100%;
+            font-family: 'Ubuntu', sans-serif;
+            background-image: url(https://img.freepik.com/free-vector/colorful-smooth-gradient-background_97886-978.jpg?size=626&ext=jpg);
+            backdrop-filter: blur(50px);
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 30px 0;
+            /*margin: auto;*/
+            height: 100vh;
+            overflow: hidden;
+        }}
+
+        .main {{
+            background: rgba(255, 255, 255, .75);
+            width: 50%;
+            height: 450px;
+            margin: 7em auto;
+            border-radius: 1.5em;
+            box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+        }}
+
+        .sign {{
+            padding-top: 20px;
+            color: white;
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: bold;
+            font-size: 23px;
+        }}
+
+        .stats {{
+            padding-top: 10px;
+            color: white;
+            font-family: 'Ubuntu', sans-serif;
+            font-weight: bold;
+            font-size: 23px;
+        }}
+
+        .entry {{
+            display: block;
+            width: 45%;
+            color: rgb(38, 50, 56);
+            font-weight: 700;
+            font-size: 14px;
+            letter-spacing: 1px;
+            background: rgba(255, 255, 255);
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            outline: none;
+            box-sizing: border-box;
+            border: 2px solid rgba(0, 0, 0, 0.2);
+            margin-bottom: 50px;
+            margin-left: auto;
+            margin-right: auto;
+
+            text-align: center;
+            text-align-last: center;
+            -moz-text-align-last: center;
+
+            margin-bottom: 27px;
+            font-family: 'Ubuntu', sans-serif;
+        }}
+
+        form.form1 {{
+            padding-top: 10px;
+        }}
+
+
+
+        .un:focus, .selection:focus {{
+            border: 2px solid rgba(0, 0, 0, 0.18) !important;
+
+        }}
+
+        .submit {{
+            display: block;
+            width: 25%;
+            cursor: pointer;
+            border-radius: 5em;
+            color: #fff;
+            background: linear-gradient(to right, #3a60fe, #3aa6fe);
+            border: 0;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            font-family: 'Ubuntu', sans-serif;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 13px;
+            box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+        }}
+
+        .submit:hover {{
+            background: linear-gradient(to right, #3aa6fe, #3a60fe);
+            color: white;
+        }}
+
+        a {{
+            text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+            color: #3a7ffe;
+            text-decoration: none
+        }}
+
+        @media (max-width: 600px) {{
+            .main {{
+                border-radius: 0px;
+            }}
+            .entry {{
+                width: 75%;
+            }}
+
+    </style>
+</head>
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>Instagram Clout Check</title>
+</head>
+
+<body>
+<!-- <div class="main"> -->
+<h1 class="sign" align="center">Instagram Clout Check</h1>
+<h4 class="sign" align="center">{}</h4>
+<h4 class="stats" align="center">Follower Count: {}</h4>
+<h4 class="stats" align="center">Follower to Following Ratio: {}</h4>
+<h4 class="stats" align="center">Average Likes to Follower Ratio: {}</h4>
+<h4 class="stats" align="center">Clout Score</h4>
+<h4 class="stats" align="center">{}</h4>
+<h4 class="stats" align="center">{}</h4>
+</body>
+
+</html>
