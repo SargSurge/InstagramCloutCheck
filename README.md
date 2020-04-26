@@ -6,6 +6,6 @@ The clout score is a an estimation of the user's reach.
 This website's backend is made in Python using Flask.
 
 
-# My version is currently hosted for free on Heroku
+# My version is currently hosted on Heroku
 
 cloutcheck.herokuapp.com
